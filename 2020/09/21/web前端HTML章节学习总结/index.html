@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="我的第一篇博文, Hexo">
+    <meta name="keywords" content="web前端HTML章节学习总结, Hexo">
     <meta name="description" content="记录与分享我的学习路程">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>我的第一篇博文 | Hexo</title>
+    <title>web前端HTML章节学习总结 | Hexo</title>
     <link rel="icon" type="image/png" href="/us.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -308,12 +308,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">我的第一篇博文</h1>
+                    <h1 class="description center-align post-title">web前端HTML章节学习总结</h1>
                 </div>
             </div>
         </div>
@@ -428,9 +428,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/HTML%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/">
+                                <span class="chip bg-color">HTML基础总结</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -458,7 +462,18 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="WEB前段学习—HTML基础总结"><a href="#WEB前段学习—HTML基础总结" class="headerlink" title="WEB前段学习—HTML基础总结"></a><strong>WEB前段学习—HTML基础总结</strong></h1><hr>
+<h2 id="初识html"><a href="#初识html" class="headerlink" title="初识html"></a><strong>初识html</strong></h2><p>  首先学习到了html是什么，html叫做超文本标记语言（Hyper Text Markup Language），其中我觉得最重要的是“标记两个字”，当我们用html来描述网页的时候，浏览器是根据html的标签来决定标签内的内容该以什么形式展现出来。（如果描述不准确望以纠正）<br>  接着就是html最一开始的声明&lt;!doctype html&gt;，这个并不是标签，他只是声明来告诉浏览器接下来用的都是html语言来进行描述，使用的是那个版本，由于w3c统一了标准？所以现在只需要声明&lt;html&gt;即可（但是在做案例的时候，table表格的高度height属性无法设置，但是声明修改成&lt;!doctype html5&gt;就可以生成了，这个情况还不知道为什么？）</p>
+<hr>
+<h2 id="lt-head-gt-and-lt-body-gt"><a href="#lt-head-gt-and-lt-body-gt" class="headerlink" title="&lt;head&gt; and &lt;body&gt;"></a><strong>&lt;head&gt; and &lt;body&gt;</strong></h2><p>  在现阶段学习，对head和body两个标签做一个最初级的理解，以后有更深刻的理解再不断更新～<br>  首先从&lt;head&gt;标签开始，head标签内的元素不会显示在网页内容上面，现阶段主要是用来描述网页小标签的样式还有搜索引擎对网页的简介呀等等。让我印象最深的代码是<br><code>&lt;meta charset=&quot;UTF-8&quot;</code><br>  每次html文件都要加上他，因为他告诉了浏览器，以下标签内的内容需要用声明编码方式去读取，因为我们变迁内容很多用的是中文，如果不声明编码方式，那很有可能我们的中文在浏览器中显示的就是非主流乱码了。<br>  &lt;body&gt;标签是这次学习的最主要内容，他里面的元素内容都会显示在我们的浏览器上供我们读取，后面会详细回顾&lt;body&gt;学习的内容。</p>
+<hr>
+<h2 id="块级标签与行内标签"><a href="#块级标签与行内标签" class="headerlink" title="块级标签与行内标签"></a><strong>块级标签与行内标签</strong></h2><p>  为了方便后面的总结，先把块级标签和行内标签的定义给解释了，后面每一个标签都会整理说明他是哪一种类型的标签。<br>###<strong><em>块级标签</em></strong><br>  块级标签可以理解为，当我们连续使用两个相同的标签时，两个标签的内容不会连在一起，而是后一位的标签内容会从新的一行开始显示，例如：<br>  <code>&lt;块级标签&gt;内容&lt;/块级标签&gt;&lt;块级标签&gt;内容&lt;/块级标签&gt;</code><br>  在网页显示出来的就是：</p>
+<pre><code class="内容">    内容```
+  而不是:```内容内容```
+## **字体和段落标签**
+  ### ***\&lt;h\&gt; and \&lt;p\&gt;***
+</code></pre>
+
             </div>
             <hr/>
 
@@ -483,7 +498,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://riordrunk0910.github.io/2020/09/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/">http://riordrunk0910.github.io/2020/09/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</a>
+                    <a href="http://riordrunk0910.github.io/2020/09/21/web%E5%89%8D%E7%AB%AFHTML%E7%AB%A0%E8%8A%82%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/">http://riordrunk0910.github.io/2020/09/21/web%E5%89%8D%E7%AB%AFHTML%E7%AB%A0%E8%8A%82%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -520,7 +535,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/HTML%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/">
+                                    <span class="chip bg-color">HTML基础总结</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -691,13 +710,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2020/09/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/">
+                <a href="/2020/09/21/web%E5%89%8D%E7%AB%AFHTML%E7%AB%A0%E8%8A%82%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="我的第一篇博文">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="web前端HTML章节学习总结">
                         
-                        <span class="card-title">我的第一篇博文</span>
+                        <span class="card-title">web前端HTML章节学习总结</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -720,22 +739,30 @@
                 </div>
 
                 
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/HTML%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/">
+                        <span class="chip bg-color">HTML基础总结</span>
+                    </a>
+                    
+                </div>
+                
             </div>
         </div>
         
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2020/09/21/hello-world/">
+                <a href="/2020/09/21/web%E5%89%8D%E7%AB%AFHTML%E7%AB%A0%E8%8A%82%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="web前端HTML章节学习总结">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">web前端HTML章节学习总结</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -755,6 +782,15 @@
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/HTML%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/">
+                        <span class="chip bg-color">HTML基础总结</span>
+                    </a>
+                    
                 </div>
                 
             </div>
